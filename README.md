@@ -3,7 +3,7 @@ C# sample project for secret and credential protection using [DPAPI](https://doc
 
 #### Why was this sample project created?
 
-Power BI Embedded (PBIE) and API require the use of either [master identity](https://docs.microsoft.com/en-us/power-bi/developer/embed-sample-for-customers#register-an-application-in-azure-active-directory-azure-ad) or [service principal](https://docs.microsoft.com/en-us/power-bi/developer/embed-service-principal).  Most PBIE samples include code fragments that read plain text credentials. It is not a good idea to store credentials and secrets in plain text in the code or a config file even for temporary throw away lowest possible privilege service accounts. The use of DPAPI provides very strong secret protection that is very straight forward to integrate into any project that is targeting Windows.
+Power BI Embedded (PBIE) and API require the use of either [master identity](https://docs.microsoft.com/en-us/power-bi/developer/embed-sample-for-customers#register-an-application-in-azure-active-directory-azure-ad) or [service principal](https://docs.microsoft.com/en-us/power-bi/developer/embed-service-principal).  Targeted at beginners code fragments may sometimes contain plain text credentials to keep the focus of the developer on the understanding of the actual authentication flow. It is not a good idea to store credentials and secrets in plain text in the code or a config file even for temporary throw away lowest possible privilege service accounts. The use of DPAPI provides very strong secret protection that is very straight forward to integrate into any project that is targeting Windows.
 
 #### How to leverage this code in your project?
 
